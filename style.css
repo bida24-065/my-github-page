@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Web Page</title>
-    <style>
-        /* General Styles */
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -14,7 +7,7 @@
             color: #333;
         }
 
-        /* Header */
+        
         header {
             background-color: #4CAF50;
             color: white;
@@ -22,7 +15,7 @@
             padding: 20px;
         }
 
-        /* Navigation Bar */
+
         nav {
             background-color: #333;
             padding: 10px 0;
@@ -51,7 +44,6 @@
             color: #4CAF50;
         }
 
-        /* Content Section */
         .content {
             text-align: center;
             padding: 40px;
@@ -83,7 +75,7 @@
             background-color: #45a049;
         }
 
-        /* Image Grid */
+    
         .image-grid {
             display: flex;
             flex-direction: column;
@@ -105,7 +97,7 @@
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
 
-        /* Footer */
+        
         footer {
             background-color: #333;
             color: white;
@@ -115,47 +107,4 @@
             bottom: 0;
             width: 100%;
         }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Welcome to My Styled Web Page</h1>
-        <p>A simple webpage with CSS styling</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section class="content">
-        <h2>About This Page</h2>
-        <p>This webpage demonstrates how to use HTML and CSS to create a simple yet stylish layout.</p>
-        <button>Click Me</button>
-    </section>
-
-    <section class="image-grid">
-        <h2>Image Gallery</h2>
-        <div class="row">
-            <img src="https://via.placeholder.com/150" alt="Image 1">
-            <img src="https://via.placeholder.com/150" alt="Image 2">
-            <img src="https://via.placeholder.com/150" alt="Image 3">
-        </div>
-        <div class="row">
-            <img src="https://via.placeholder.com/150" alt="Image 4">
-            <img src="https://via.placeholder.com/150" alt="Image 5">
-            <img src="https://via.placeholder.com/150" alt="Image 6">
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+    
